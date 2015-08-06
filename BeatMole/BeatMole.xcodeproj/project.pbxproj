@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		643BA0401AFC451E00ACB81B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643BA03F1AFC451E00ACB81B /* main.m */; };
+		643BA0431AFC451E00ACB81B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643BA0421AFC451E00ACB81B /* AppDelegate.m */; };
+		643BA0451AFC451E00ACB81B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0441AFC451E00ACB81B /* Images.xcassets */; };
+		643BA0481AFC451E00ACB81B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0461AFC451E00ACB81B /* LaunchScreen.xib */; };
+		643BA0541AFC451E00ACB81B /* BeatMoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643BA0531AFC451E00ACB81B /* BeatMoleTests.m */; };
+		643BA0601AFC463F00ACB81B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643BA05F1AFC463F00ACB81B /* GameViewController.m */; };
+		643BA0641AFC469300ACB81B /* Mole.m in Sources */ = {isa = PBXBuildFile; fileRef = 643BA0631AFC469300ACB81B /* Mole.m */; };
+		643BA08A1AFC46BF00ACB81B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0671AFC46BF00ACB81B /* Default.png */; };
+		643BA08B1AFC46BF00ACB81B /* GameBG01.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0681AFC46BF00ACB81B /* GameBG01.png */; };
+		643BA08C1AFC46BF00ACB81B /* GameBG02.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0691AFC46BF00ACB81B /* GameBG02.png */; };
+		643BA08D1AFC46BF00ACB81B /* GameBG03.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA06A1AFC46BF00ACB81B /* GameBG03.png */; };
+		643BA08E1AFC46BF00ACB81B /* GameBG04.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA06B1AFC46BF00ACB81B /* GameBG04.png */; };
+		643BA08F1AFC46BF00ACB81B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA06C1AFC46BF00ACB81B /* Icon.png */; };
+		643BA0901AFC46BF00ACB81B /* Mole01.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA06D1AFC46BF00ACB81B /* Mole01.png */; };
+		643BA0911AFC46BF00ACB81B /* Mole02.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA06E1AFC46BF00ACB81B /* Mole02.png */; };
+		643BA0921AFC46BF00ACB81B /* Mole03.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA06F1AFC46BF00ACB81B /* Mole03.png */; };
+		643BA0931AFC46BF00ACB81B /* Mole04.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0701AFC46BF00ACB81B /* Mole04.png */; };
+		643BA0941AFC46BF00ACB81B /* Mole05.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0711AFC46BF00ACB81B /* Mole05.png */; };
+		643BA0951AFC46BF00ACB81B /* Mole06.png in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0721AFC46BF00ACB81B /* Mole06.png */; };
+		643BA0961AFC46BF00ACB81B /* gophermusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0741AFC46BF00ACB81B /* gophermusic.mp3 */; };
+		643BA0971AFC46BF00ACB81B /* Sound01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0751AFC46BF00ACB81B /* Sound01.wav */; };
+		643BA0981AFC46BF00ACB81B /* Sound02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0761AFC46BF00ACB81B /* Sound02.wav */; };
+		643BA0991AFC46BF00ACB81B /* Sound03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0771AFC46BF00ACB81B /* Sound03.wav */; };
+		643BA09A1AFC46BF00ACB81B /* Sound04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0781AFC46BF00ACB81B /* Sound04.wav */; };
+		643BA09B1AFC46BF00ACB81B /* Sound05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0791AFC46BF00ACB81B /* Sound05.wav */; };
+		643BA09C1AFC46BF00ACB81B /* Sound06.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA07A1AFC46BF00ACB81B /* Sound06.wav */; };
+		643BA09D1AFC46BF00ACB81B /* Sound07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA07B1AFC46BF00ACB81B /* Sound07.wav */; };
+		643BA09E1AFC46BF00ACB81B /* Sound08.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA07C1AFC46BF00ACB81B /* Sound08.wav */; };
+		643BA09F1AFC46BF00ACB81B /* Sound09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA07D1AFC46BF00ACB81B /* Sound09.wav */; };
+		643BA0A01AFC46BF00ACB81B /* Sound10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA07E1AFC46BF00ACB81B /* Sound10.wav */; };
+		643BA0A11AFC46BF00ACB81B /* Sound11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA07F1AFC46BF00ACB81B /* Sound11.wav */; };
+		643BA0A21AFC46BF00ACB81B /* Sound12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0801AFC46BF00ACB81B /* Sound12.wav */; };
+		643BA0A31AFC46BF00ACB81B /* Sound13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0811AFC46BF00ACB81B /* Sound13.wav */; };
+		643BA0A41AFC46BF00ACB81B /* Sound14.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0821AFC46BF00ACB81B /* Sound14.wav */; };
+		643BA0A51AFC46BF00ACB81B /* Sound15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0831AFC46BF00ACB81B /* Sound15.wav */; };
+		643BA0A61AFC46BF00ACB81B /* Sound16.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0841AFC46BF00ACB81B /* Sound16.wav */; };
+		643BA0A71AFC46BF00ACB81B /* Sound17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0851AFC46BF00ACB81B /* Sound17.wav */; };
+		643BA0A81AFC46BF00ACB81B /* Sound18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0861AFC46BF00ACB81B /* Sound18.wav */; };
+		643BA0A91AFC46BF00ACB81B /* Sound19.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0871AFC46BF00ACB81B /* Sound19.wav */; };
+		643BA0AA1AFC46BF00ACB81B /* Sound20.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0881AFC46BF00ACB81B /* Sound20.wav */; };
+		643BA0AB1AFC46BF00ACB81B /* Sound21.wav in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0891AFC46BF00ACB81B /* Sound21.wav */; };
+		643BA0AD1AFC47EE00ACB81B /* BackImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 643BA0AC1AFC47EE00ACB81B /* BackImage.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		643BA04E1AFC451E00ACB81B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 643BA0321AFC451E00ACB81B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643BA0391AFC451E00ACB81B;
+			remoteInfo = BeatMole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		643BA03A1AFC451E00ACB81B /* BeatMole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatMole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		643BA03E1AFC451E00ACB81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643BA03F1AFC451E00ACB81B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		643BA0411AFC451E00ACB81B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		643BA0421AFC451E00ACB81B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		643BA0441AFC451E00ACB81B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		643BA0471AFC451E00ACB81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		643BA04D1AFC451E00ACB81B /* BeatMoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatMoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		643BA0521AFC451E00ACB81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643BA0531AFC451E00ACB81B /* BeatMoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeatMoleTests.m; sourceTree = "<group>"; };
+		643BA05E1AFC463F00ACB81B /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		643BA05F1AFC463F00ACB81B /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		643BA0621AFC469300ACB81B /* Mole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mole.h; sourceTree = "<group>"; };
+		643BA0631AFC469300ACB81B /* Mole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mole.m; sourceTree = "<group>"; };
+		643BA0671AFC46BF00ACB81B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		643BA0681AFC46BF00ACB81B /* GameBG01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBG01.png; sourceTree = "<group>"; };
+		643BA0691AFC46BF00ACB81B /* GameBG02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBG02.png; sourceTree = "<group>"; };
+		643BA06A1AFC46BF00ACB81B /* GameBG03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBG03.png; sourceTree = "<group>"; };
+		643BA06B1AFC46BF00ACB81B /* GameBG04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBG04.png; sourceTree = "<group>"; };
+		643BA06C1AFC46BF00ACB81B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		643BA06D1AFC46BF00ACB81B /* Mole01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole01.png; sourceTree = "<group>"; };
+		643BA06E1AFC46BF00ACB81B /* Mole02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole02.png; sourceTree = "<group>"; };
+		643BA06F1AFC46BF00ACB81B /* Mole03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole03.png; sourceTree = "<group>"; };
+		643BA0701AFC46BF00ACB81B /* Mole04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole04.png; sourceTree = "<group>"; };
+		643BA0711AFC46BF00ACB81B /* Mole05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole05.png; sourceTree = "<group>"; };
+		643BA0721AFC46BF00ACB81B /* Mole06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole06.png; sourceTree = "<group>"; };
+		643BA0741AFC46BF00ACB81B /* gophermusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gophermusic.mp3; sourceTree = "<group>"; };
+		643BA0751AFC46BF00ACB81B /* Sound01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound01.wav; sourceTree = "<group>"; };
+		643BA0761AFC46BF00ACB81B /* Sound02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound02.wav; sourceTree = "<group>"; };
+		643BA0771AFC46BF00ACB81B /* Sound03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound03.wav; sourceTree = "<group>"; };
+		643BA0781AFC46BF00ACB81B /* Sound04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound04.wav; sourceTree = "<group>"; };
+		643BA0791AFC46BF00ACB81B /* Sound05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound05.wav; sourceTree = "<group>"; };
+		643BA07A1AFC46BF00ACB81B /* Sound06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound06.wav; sourceTree = "<group>"; };
+		643BA07B1AFC46BF00ACB81B /* Sound07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound07.wav; sourceTree = "<group>"; };
+		643BA07C1AFC46BF00ACB81B /* Sound08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound08.wav; sourceTree = "<group>"; };
+		643BA07D1AFC46BF00ACB81B /* Sound09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound09.wav; sourceTree = "<group>"; };
+		643BA07E1AFC46BF00ACB81B /* Sound10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound10.wav; sourceTree = "<group>"; };
+		643BA07F1AFC46BF00ACB81B /* Sound11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound11.wav; sourceTree = "<group>"; };
+		643BA0801AFC46BF00ACB81B /* Sound12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound12.wav; sourceTree = "<group>"; };
+		643BA0811AFC46BF00ACB81B /* Sound13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound13.wav; sourceTree = "<group>"; };
+		643BA0821AFC46BF00ACB81B /* Sound14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound14.wav; sourceTree = "<group>"; };
+		643BA0831AFC46BF00ACB81B /* Sound15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound15.wav; sourceTree = "<group>"; };
+		643BA0841AFC46BF00ACB81B /* Sound16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound16.wav; sourceTree = "<group>"; };
+		643BA0851AFC46BF00ACB81B /* Sound17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound17.wav; sourceTree = "<group>"; };
+		643BA0861AFC46BF00ACB81B /* Sound18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound18.wav; sourceTree = "<group>"; };
+		643BA0871AFC46BF00ACB81B /* Sound19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound19.wav; sourceTree = "<group>"; };
+		643BA0881AFC46BF00ACB81B /* Sound20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound20.wav; sourceTree = "<group>"; };
+		643BA0891AFC46BF00ACB81B /* Sound21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sound21.wav; sourceTree = "<group>"; };
+		643BA0AC1AFC47EE00ACB81B /* BackImage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BackImage.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		643BA0371AFC451E00ACB81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643BA04A1AFC451E00ACB81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		643BA0311AFC451E00ACB81B = {
+			isa = PBXGroup;
+			children = (
+				643BA0651AFC469D00ACB81B /* Resource */,
+				643BA0611AFC465300ACB81B /* Mole */,
+				643BA05D1AFC461A00ACB81B /* Controllers */,
+				643BA03C1AFC451E00ACB81B /* BeatMole */,
+				643BA0501AFC451E00ACB81B /* BeatMoleTests */,
+				643BA03B1AFC451E00ACB81B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		643BA03B1AFC451E00ACB81B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				643BA03A1AFC451E00ACB81B /* BeatMole.app */,
+				643BA04D1AFC451E00ACB81B /* BeatMoleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		643BA03C1AFC451E00ACB81B /* BeatMole */ = {
+			isa = PBXGroup;
+			children = (
+				643BA0411AFC451E00ACB81B /* AppDelegate.h */,
+				643BA0421AFC451E00ACB81B /* AppDelegate.m */,
+				643BA0441AFC451E00ACB81B /* Images.xcassets */,
+				643BA0461AFC451E00ACB81B /* LaunchScreen.xib */,
+				643BA03D1AFC451E00ACB81B /* Supporting Files */,
+			);
+			path = BeatMole;
+			sourceTree = "<group>";
+		};
+		643BA03D1AFC451E00ACB81B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				643BA03E1AFC451E00ACB81B /* Info.plist */,
+				643BA03F1AFC451E00ACB81B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		643BA0501AFC451E00ACB81B /* BeatMoleTests */ = {
+			isa = PBXGroup;
+			children = (
+				643BA0531AFC451E00ACB81B /* BeatMoleTests.m */,
+				643BA0511AFC451E00ACB81B /* Supporting Files */,
+			);
+			path = BeatMoleTests;
+			sourceTree = "<group>";
+		};
+		643BA0511AFC451E00ACB81B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				643BA0521AFC451E00ACB81B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		643BA05D1AFC461A00ACB81B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				643BA05E1AFC463F00ACB81B /* GameViewController.h */,
+				643BA05F1AFC463F00ACB81B /* GameViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		643BA0611AFC465300ACB81B /* Mole */ = {
+			isa = PBXGroup;
+			children = (
+				643BA0621AFC469300ACB81B /* Mole.h */,
+				643BA0631AFC469300ACB81B /* Mole.m */,
+			);
+			name = Mole;
+			sourceTree = "<group>";
+		};
+		643BA0651AFC469D00ACB81B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				643BA0AC1AFC47EE00ACB81B /* BackImage.plist */,
+				643BA0661AFC46BF00ACB81B /* 打地鼠 */,
+				643BA0731AFC46BF00ACB81B /* 打地鼠音频 */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		643BA0661AFC46BF00ACB81B /* 打地鼠 */ = {
+			isa = PBXGroup;
+			children = (
+				643BA0671AFC46BF00ACB81B /* Default.png */,
+				643BA0681AFC46BF00ACB81B /* GameBG01.png */,
+				643BA0691AFC46BF00ACB81B /* GameBG02.png */,
+				643BA06A1AFC46BF00ACB81B /* GameBG03.png */,
+				643BA06B1AFC46BF00ACB81B /* GameBG04.png */,
+				643BA06C1AFC46BF00ACB81B /* Icon.png */,
+				643BA06D1AFC46BF00ACB81B /* Mole01.png */,
+				643BA06E1AFC46BF00ACB81B /* Mole02.png */,
+				643BA06F1AFC46BF00ACB81B /* Mole03.png */,
+				643BA0701AFC46BF00ACB81B /* Mole04.png */,
+				643BA0711AFC46BF00ACB81B /* Mole05.png */,
+				643BA0721AFC46BF00ACB81B /* Mole06.png */,
+			);
+			path = "打地鼠";
+			sourceTree = "<group>";
+		};
+		643BA0731AFC46BF00ACB81B /* 打地鼠音频 */ = {
+			isa = PBXGroup;
+			children = (
+				643BA0741AFC46BF00ACB81B /* gophermusic.mp3 */,
+				643BA0751AFC46BF00ACB81B /* Sound01.wav */,
+				643BA0761AFC46BF00ACB81B /* Sound02.wav */,
+				643BA0771AFC46BF00ACB81B /* Sound03.wav */,
+				643BA0781AFC46BF00ACB81B /* Sound04.wav */,
+				643BA0791AFC46BF00ACB81B /* Sound05.wav */,
+				643BA07A1AFC46BF00ACB81B /* Sound06.wav */,
+				643BA07B1AFC46BF00ACB81B /* Sound07.wav */,
+				643BA07C1AFC46BF00ACB81B /* Sound08.wav */,
+				643BA07D1AFC46BF00ACB81B /* Sound09.wav */,
+				643BA07E1AFC46BF00ACB81B /* Sound10.wav */,
+				643BA07F1AFC46BF00ACB81B /* Sound11.wav */,
+				643BA0801AFC46BF00ACB81B /* Sound12.wav */,
+				643BA0811AFC46BF00ACB81B /* Sound13.wav */,
+				643BA0821AFC46BF00ACB81B /* Sound14.wav */,
+				643BA0831AFC46BF00ACB81B /* Sound15.wav */,
+				643BA0841AFC46BF00ACB81B /* Sound16.wav */,
+				643BA0851AFC46BF00ACB81B /* Sound17.wav */,
+				643BA0861AFC46BF00ACB81B /* Sound18.wav */,
+				643BA0871AFC46BF00ACB81B /* Sound19.wav */,
+				643BA0881AFC46BF00ACB81B /* Sound20.wav */,
+				643BA0891AFC46BF00ACB81B /* Sound21.wav */,
+			);
+			path = "打地鼠音频";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		643BA0391AFC451E00ACB81B /* BeatMole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643BA0571AFC451F00ACB81B /* Build configuration list for PBXNativeTarget "BeatMole" */;
+			buildPhases = (
+				643BA0361AFC451E00ACB81B /* Sources */,
+				643BA0371AFC451E00ACB81B /* Frameworks */,
+				643BA0381AFC451E00ACB81B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatMole;
+			productName = BeatMole;
+			productReference = 643BA03A1AFC451E00ACB81B /* BeatMole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		643BA04C1AFC451E00ACB81B /* BeatMoleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643BA05A1AFC451F00ACB81B /* Build configuration list for PBXNativeTarget "BeatMoleTests" */;
+			buildPhases = (
+				643BA0491AFC451E00ACB81B /* Sources */,
+				643BA04A1AFC451E00ACB81B /* Frameworks */,
+				643BA04B1AFC451E00ACB81B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643BA04F1AFC451E00ACB81B /* PBXTargetDependency */,
+			);
+			name = BeatMoleTests;
+			productName = BeatMoleTests;
+			productReference = 643BA04D1AFC451E00ACB81B /* BeatMoleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		643BA0321AFC451E00ACB81B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "轩哥";
+				TargetAttributes = {
+					643BA0391AFC451E00ACB81B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					643BA04C1AFC451E00ACB81B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 643BA0391AFC451E00ACB81B;
+					};
+				};
+			};
+			buildConfigurationList = 643BA0351AFC451E00ACB81B /* Build configuration list for PBXProject "BeatMole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 643BA0311AFC451E00ACB81B;
+			productRefGroup = 643BA03B1AFC451E00ACB81B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				643BA0391AFC451E00ACB81B /* BeatMole */,
+				643BA04C1AFC451E00ACB81B /* BeatMoleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		643BA0381AFC451E00ACB81B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643BA0911AFC46BF00ACB81B /* Mole02.png in Resources */,
+				643BA0A21AFC46BF00ACB81B /* Sound12.wav in Resources */,
+				643BA09F1AFC46BF00ACB81B /* Sound09.wav in Resources */,
+				643BA0971AFC46BF00ACB81B /* Sound01.wav in Resources */,
+				643BA0921AFC46BF00ACB81B /* Mole03.png in Resources */,
+				643BA0481AFC451E00ACB81B /* LaunchScreen.xib in Resources */,
+				643BA08D1AFC46BF00ACB81B /* GameBG03.png in Resources */,
+				643BA0AB1AFC46BF00ACB81B /* Sound21.wav in Resources */,
+				643BA0A81AFC46BF00ACB81B /* Sound18.wav in Resources */,
+				643BA0A11AFC46BF00ACB81B /* Sound11.wav in Resources */,
+				643BA0AD1AFC47EE00ACB81B /* BackImage.plist in Resources */,
+				643BA09A1AFC46BF00ACB81B /* Sound04.wav in Resources */,
+				643BA0951AFC46BF00ACB81B /* Mole06.png in Resources */,
+				643BA08E1AFC46BF00ACB81B /* GameBG04.png in Resources */,
+				643BA09E1AFC46BF00ACB81B /* Sound08.wav in Resources */,
+				643BA0A31AFC46BF00ACB81B /* Sound13.wav in Resources */,
+				643BA08A1AFC46BF00ACB81B /* Default.png in Resources */,
+				643BA0A41AFC46BF00ACB81B /* Sound14.wav in Resources */,
+				643BA09B1AFC46BF00ACB81B /* Sound05.wav in Resources */,
+				643BA0901AFC46BF00ACB81B /* Mole01.png in Resources */,
+				643BA0A91AFC46BF00ACB81B /* Sound19.wav in Resources */,
+				643BA08F1AFC46BF00ACB81B /* Icon.png in Resources */,
+				643BA0961AFC46BF00ACB81B /* gophermusic.mp3 in Resources */,
+				643BA09C1AFC46BF00ACB81B /* Sound06.wav in Resources */,
+				643BA0941AFC46BF00ACB81B /* Mole05.png in Resources */,
+				643BA0A01AFC46BF00ACB81B /* Sound10.wav in Resources */,
+				643BA0A51AFC46BF00ACB81B /* Sound15.wav in Resources */,
+				643BA0AA1AFC46BF00ACB81B /* Sound20.wav in Resources */,
+				643BA08C1AFC46BF00ACB81B /* GameBG02.png in Resources */,
+				643BA0A71AFC46BF00ACB81B /* Sound17.wav in Resources */,
+				643BA0A61AFC46BF00ACB81B /* Sound16.wav in Resources */,
+				643BA0991AFC46BF00ACB81B /* Sound03.wav in Resources */,
+				643BA09D1AFC46BF00ACB81B /* Sound07.wav in Resources */,
+				643BA0451AFC451E00ACB81B /* Images.xcassets in Resources */,
+				643BA0981AFC46BF00ACB81B /* Sound02.wav in Resources */,
+				643BA0931AFC46BF00ACB81B /* Mole04.png in Resources */,
+				643BA08B1AFC46BF00ACB81B /* GameBG01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643BA04B1AFC451E00ACB81B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		643BA0361AFC451E00ACB81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643BA0431AFC451E00ACB81B /* AppDelegate.m in Sources */,
+				643BA0601AFC463F00ACB81B /* GameViewController.m in Sources */,
+				643BA0641AFC469300ACB81B /* Mole.m in Sources */,
+				643BA0401AFC451E00ACB81B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643BA0491AFC451E00ACB81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643BA0541AFC451E00ACB81B /* BeatMoleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		643BA04F1AFC451E00ACB81B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643BA0391AFC451E00ACB81B /* BeatMole */;
+			targetProxy = 643BA04E1AFC451E00ACB81B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		643BA0461AFC451E00ACB81B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643BA0471AFC451E00ACB81B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		643BA0551AFC451E00ACB81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		643BA0561AFC451E00ACB81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		643BA0581AFC451F00ACB81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = BeatMole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55a611ca-e71e-46de-a5f3-7a567d134749";
+			};
+			name = Debug;
+		};
+		643BA0591AFC451F00ACB81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = BeatMole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "55a611ca-e71e-46de-a5f3-7a567d134749";
+			};
+			name = Release;
+		};
+		643BA05B1AFC451F00ACB81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeatMoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatMole.app/BeatMole";
+			};
+			name = Debug;
+		};
+		643BA05C1AFC451F00ACB81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeatMoleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatMole.app/BeatMole";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		643BA0351AFC451E00ACB81B /* Build configuration list for PBXProject "BeatMole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643BA0551AFC451E00ACB81B /* Debug */,
+				643BA0561AFC451E00ACB81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643BA0571AFC451F00ACB81B /* Build configuration list for PBXNativeTarget "BeatMole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643BA0581AFC451F00ACB81B /* Debug */,
+				643BA0591AFC451F00ACB81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643BA05A1AFC451F00ACB81B /* Build configuration list for PBXNativeTarget "BeatMoleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643BA05B1AFC451F00ACB81B /* Debug */,
+				643BA05C1AFC451F00ACB81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 643BA0321AFC451E00ACB81B /* Project object */;
+}
